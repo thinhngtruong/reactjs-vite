@@ -1,0 +1,22 @@
+@import "src/styles/variables.scss";
+
+.tag {
+  background-color: $light-grey;
+  color: $white;
+  height: 26px;
+  padding: 9px;
+  color: $light-black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  cursor: default;
+
+  &:hover {
+    background-color: $dark-grey;
+    color: $white;
+  }
+}

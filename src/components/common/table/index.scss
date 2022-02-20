@@ -1,0 +1,44 @@
+@import "src/styles/variables.scss";
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+  .table-header {
+    display: flex;
+    color: $dark-black;
+    font-size: 14px;
+    font-weight: bold;
+
+    > div {
+      flex: 1;
+    }
+
+    > div:first-child {
+      padding: 10px;
+      flex: 0.5;
+    }
+  }
+
+  .table-row {
+    display: flex;
+
+    > div, span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-bottom: 1px solid #E6E6E6;
+    }
+
+    > div {
+      flex: 0.5;
+      justify-content: flex-start;
+    }
+
+    > span {
+      flex: 1;
+    }
+  }
+}

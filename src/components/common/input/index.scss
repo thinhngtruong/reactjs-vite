@@ -1,0 +1,16 @@
+@import "src/styles/variables.scss";
+
+.input {
+  width: 100%;
+  border: 2px solid $light-grey;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+
+  &:hover, &:focus {
+    border-color: $grey;
+  }
+}

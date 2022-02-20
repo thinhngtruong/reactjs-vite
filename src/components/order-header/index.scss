@@ -1,0 +1,30 @@
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  > p, h3 {
+    margin: 0;
+  }
+}
+
+.order-id {
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+
+  > input, span {
+    margin-left: 15px;
+  }
+}
+
+.order-date {
+  text-align: right;
+  font-size: 14px;
+
+  > p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}

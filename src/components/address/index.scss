@@ -1,0 +1,17 @@
+.address {
+  font-size: 14px;
+  line-height: 22px;
+  width: 220px;
+
+  &.edit {
+    width: 500px;
+  }
+
+  > p {
+    margin: 0;
+  }
+
+  .address-detail {
+    text-transform: uppercase;
+  }
+}
